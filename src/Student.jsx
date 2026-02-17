@@ -1,12 +1,14 @@
 import React from 'react'
 
-const Student = ({ Myname, age}) => {
-  return (
+const Student = (props) => {
+    console.log(props); //props keh andr object hota h
+    return (
     <div>
-        <p>{Myname}</p>
-        <p>{age}</p>
+        <p>{props.Myname}</p>
+        <p>{props.age}</p>
     </div>
   )
 }
 
 export default Student
+

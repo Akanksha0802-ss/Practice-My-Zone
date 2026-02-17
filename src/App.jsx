@@ -1,12 +1,12 @@
 import React from 'react'
-import Student1 from './Student1'
-import Student2 from './Student2'
+import Student from './Student'
 
 const App = () => {
   return (
     <div>
-      <Student1 />
-      <Student2 />
+      //here, component load with student data feed, this is a props defination
+      <Student Myname="vikas" age="18" salary="200000"/>
+      <Student Myname="akash" age="28" salary="500000" />
     </div>
   )
 }
