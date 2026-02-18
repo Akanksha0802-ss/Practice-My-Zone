@@ -1,12 +1,10 @@
 import React from 'react'
 
-const Card = ({Myname,age,salary,Address}) => {
+const Card = ({ Myname, age }) => {
     return (
     <div>
         <p>{Myname}</p>
         <p>{age}</p>
-        <p>{salary}</p>
-        <p>{Address}</p>
     </div>
   )
 }
